@@ -1,180 +1,180 @@
-﻿#### Autohotkey scripts .ahk
+#### Script Autohotkey .ahk
 
-My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.
+La mia raccolta di script di autohotkey. Alcuni script sono scritti da me, alcuni sono modificati da me, alcuni sono completamente creati da altri.
 
-AutoHotkey is required to run and/or compile the scripts. The compiled scripts can be executed without autohotkey installed on user's machine.
+AutoHotkey è necessario per eseguire e / o compilare gli script. Gli script compilati possono essere eseguiti senza autohotkey installato sulla macchina dell'utente.
 
-To download AutoHotkey visit http://www.autohotkey.com/
+Per scaricare AutoHotkey, visitare http://www.autohotkey.com/
 <hr>
-#### Scripts in alphabetical order
+#### Script in ordine alfabetico
  
-##### [AltTab FingerTips](AltTab%20FingerTips)
-Adds a hotkey that opens a context menu (at the cursor's current position) with all the opened windows listed as menuitems.
-Usage: hit the hotkey (default is F10) to open the context menu.
+##### [Suggerimenti dita AltTab] (AltTab% 20 Suggerimenti dita)
+Aggiunge un tasto di scelta rapida che apre un menu contestuale (nella posizione corrente del cursore) con tutte le finestre aperte elencate come voci di menu.
+Utilizzo: premere il tasto di scelta rapida (l'impostazione predefinita è F10) per aprire il menu contestuale.
 
-##### [BBCodes](BBCodes)
-Adds hotkeys (that work only in browsers) to quickly put selected text into the corresponding BBCode tags.
-Usage: in a browser select any text in a text field and use any hotkey to put the selected text into the corresponding BBCode tags.
+##### [BBCodes] (BBCodes)
+Aggiunge tasti di scelta rapida (che funzionano solo nei browser) per inserire rapidamente il testo selezionato nei corrispondenti tag BBCode.
+Utilizzo: in un browser selezionare qualsiasi testo in un campo di testo e utilizzare qualsiasi tasto di scelta rapida per inserire il testo selezionato nei tag BBCode corrispondenti.
 
-##### [Capitalize](Capitalize)
-Automatically capitalizes letters after hitting Enter or typing dot, exclamation mark or question mark or triple dots.
+##### [Capitalize] (Capitalize)
+Converte automaticamente in maiuscolo le lettere dopo aver premuto Invio o digitato un punto, un punto esclamativo o un punto interrogativo o tre punti.
 
-##### [DetachVideo](DetachVideo)
-Detach a flash container's frame from a browser into a separate window (in Windows). Doesn't play well with Firefox.
-Usage: in a browser open a page with flash container, mouse over it and hit the hotkey (default is F12).
+##### [DetachVideo] (DetachVideo)
+Scollega il frame di un contenitore Flash da un browser in una finestra separata (in Windows). Non funziona bene con Firefox.
+Utilizzo: in un browser aprire una pagina con contenitore flash, passare il mouse su di essa e premere il tasto di scelta rapida (l'impostazione predefinita è F12).
 
-##### [DevTools](DevTools)
-This is a bunch of scripts that either are developer tools or small code examples (like "best practice") for some specific tasks, like exchanging values of 2 variables without creating a 3rd temporary variable. Some codes are taken directly from the ahk documentation.
+##### [DevTools] (DevTools)
+Questo è un gruppo di script che sono strumenti per sviluppatori o piccoli esempi di codice (come "best practice") per alcune attività specifiche, come lo scambio di valori di 2 variabili senza creare una terza variabile temporanea. Alcuni codici sono presi direttamente dalla documentazione ahk.
 
-##### [DropCommand](DropCommand)
-Enable drag and drop of files to a command window (pastes them as paths to the files).
+##### [DropCommand] (DropCommand)
+Abilita il trascinamento della selezione dei file in una finestra di comando (li incolla come percorsi dei file).
 
-##### [DrugWinManager](DrugWinManager)
-Quite a heavy script with lots of functions, all of which are targeted to bring more control over the windows. For example, it lets you scroll inactive windows without activating them, lets you scroll over taskbars in some programs (like some browsers and text editors) to switch tabs, lets you set/remove "always on top" flag for the window under the cursor or the active window, lets you quickly resize&move the active window to a predifined positions (any half or any quarter of the screen's "usable area" [monitor's area excluding taskbar area]), lets you hide/restore titlebars of the windows or lets you move the inactive window without activating it.
-The script uses lots of hotkeys, but many of them by default use non-standard buttons of mouse and keyboard, so if your mouse and/or keyboard lack those buttons - you'll have to re-configure those hotkeys.
-Also, the script has quite much stuff that you'd probably won't be interested in (that stuff was written to fit my own needs only).
+##### [DrugWinManager] (DrugWinManager)
+Uno script piuttosto pesante con molte funzioni, tutte mirate a fornire un maggiore controllo sulle finestre. Ad esempio, ti consente di scorrere le finestre inattive senza attivarle, ti consente di scorrere le barre delle applicazioni in alcuni programmi (come alcuni browser ed editor di testo) per cambiare scheda, ti consente di impostare / rimuovere il flag "sempre in primo piano" per la finestra sotto il cursore o la finestra attiva, consente di ridimensionare e spostare rapidamente la finestra attiva in una posizione predeterminata (qualsiasi metà o qualsiasi quarto dell '"area utilizzabile" dello schermo [area del monitor esclusa l'area della barra delle applicazioni]), consente di nascondere / ripristinare le barre dei titoli delle finestre o spostare la finestra inattiva senza attivarla.
+Lo script utilizza molti tasti di scelta rapida, ma molti di essi per impostazione predefinita utilizzano pulsanti non standard di mouse e tastiera, quindi se il mouse e / o la tastiera non dispongono di questi pulsanti, dovrai riconfigurare quei tasti di scelta rapida.
+Inoltre, la sceneggiatura contiene molte cose che probabilmente non ti interessano (quelle cose sono state scritte solo per soddisfare le mie esigenze).
 
-##### [FastenFileUploadFromURLs](FastenFileUploadFromURLs)
-Not many people know that when uploading a file (say, setting an avatar to your profile on a forum), it is allowed to use URLs pointing to some files that you don't have locally saved. All you need is to paste the URL into the "file name" input field - in that case, the file will be downloaded to a %temp% folder on your computer and the local path to that file will get used.
-However, Windows OSes are quite buggy and sometimes the downloading of a sinngle tiny image may take up to 1 minute, which is too long.
-This script just fastens this process to the minimum time required to download the file. All you need is to have this script running, whenever you paste an URL into the "File Upload" window.
+##### [FastenFileUploadFromURLs] (FastenFileUploadFromURLs)
+Non molte persone sanno che quando si carica un file (ad esempio, impostando un avatar sul proprio profilo su un forum), è consentito utilizzare URL che puntano ad alcuni file che non sono stati salvati localmente. Tutto ciò che serve è incollare l'URL nel campo di immissione "nome file": in tal caso, il file verrà scaricato in una cartella% temp% sul computer e verrà utilizzato il percorso locale di quel file.
+Tuttavia, i sistemi operativi Windows sono piuttosto buggati e talvolta il download di un'immagine minuscola può richiedere fino a 1 minuto, che è troppo lungo.
+Questo script limita semplicemente questo processo al tempo minimo richiesto per scaricare il file. Tutto ciò di cui hai bisogno è che questo script sia in esecuzione, ogni volta che incolli un URL nella finestra "Caricamento file".
 
-##### [FlashPluginUnpacker.ahk-4FxPE](FlashPluginUnpacker.ahk-4FxPE)
-Written for Firefox Portable users who need Flash Player's dll files, but who don't want to install it into the system.
-You put this script into your "%firefoxportable%\Data\Plugins" folder, download Flash Plugin from <a href="http://portableappz.blogspot.ru/2011/03/flash-1021531-10318042-plugins.html">here</a> and just drag'n'drop the exe file you downloaded onto the script.
-This script requires you to have 7-Zip installed. The script is capable of running from a different place (it will then prompt the user to specify the path to the "%firefoxportable%\Data\Plugins" folder, and it also can backup old dlls. And if plugin-container.exe process is running - the script kills it to unlock the files that are in use but need to be replaced.
+##### [FlashPluginUnpacker.ahk-4FxPE] (FlashPluginUnpacker.ahk-4FxPE)
+Scritto per gli utenti di Firefox Portable che necessitano dei file dll di Flash Player, ma che non vogliono installarlo nel sistema.
+Inserisci questo script nella cartella "% firefoxportable% \ Data \ Plugins", scarica il plug-in Flash da <a href = "http://portableappz.blogspot.ru/2011/03/flash-1021531-10318042-plugins.html" > qui </a> e trascina semplicemente il file exe che hai scaricato sullo script.
+Questo script richiede l'installazione di 7-Zip. Lo script può essere eseguito da una posizione diversa (chiederà quindi all'utente di specificare il percorso della cartella "% firefoxportable% \ Data \ Plugins" e può anche eseguire il backup di vecchie DLL. E se il processo plugin-container.exe è in esecuzione: lo script lo interrompe per sbloccare i file in uso ma che devono essere sostituiti.
 
-##### [GoneIn60s](GoneIn60s)
-Recover closed applications. Features:
-- Click the X or press Alt-F4 to close an application
-- To recover, rightclick the tray icon and choose an application
-- Doubleclick the tray icon to recover all applications
-- If not restored, it is gone in 60 seconds
+##### [GoneIn60s] (GoneIn60s)
+Recupera applicazioni chiuse. Caratteristiche:
+- Fare clic sulla X o premere Alt-F4 per chiudere un'applicazione
+- Per ripristinare, fare clic con il pulsante destro del mouse sull'icona della barra delle applicazioni e scegliere un'applicazione
+- Fare doppio clic sull'icona della barra delle applicazioni per ripristinare tutte le applicazioni
+- Se non viene ripristinato, scompare in 60 secondi
 
-##### [Icon Menu Launcher](Icon%20Menu%20Launcher)
-Very short script that just demonstrates the idea of how to combine multiple shortcuts into a single one that opens a context menu, where each menuitem runs a corresponding shortcut.
+##### [Icona Menu Launcher] (Icona% 20Menu% 20Launcher)
+Script molto breve che dimostra solo l'idea di come combinare più scorciatoie in una sola che apre un menu contestuale, in cui ogni voce di menu esegue una scorciatoia corrispondente.
 
-##### [Libraries](Libraries)
-These are the libs, which may be required by some of the scripts.
+##### [Biblioteche] (Biblioteche)
+Queste sono le librerie, che potrebbero essere richieste da alcuni degli script.
 
-##### [MetaDescription for Windows Explorer](MetaDescription%20for%20Windows%20Explorer)
-This script lets you add commentaries (in simple text or HTML syntax) to the files. The commentaries will be stored in an alternative data stream hooked right to the file you add comments to. The commented file stays unmodified.
-Usage:
-	Add/modify description: in Windows Explorer select any file and hit "Alt+F1" hotkey. A window will show up with a input field where you can put a description. Write in something and hit 'Save' button.
-	Show description: in Windows Explorer either select one or multiple files or don't select anything, then hit and hold "F1" key: a window with previously added description will show up.
-This script is an alternative to [descript.ion for Windows Explorer](descript.ion for Windows Explorer) and now you may move files however you like (on NTFS disk) and not worry about also moving the description.
+##### [MetaDescription per Windows Explorer] (MetaDescription% 20per% 20Windows% 20Explorer)
+Questo script consente di aggiungere commenti (in testo semplice o sintassi HTML) ai file. I commenti verranno archiviati in un flusso di dati alternativo collegato direttamente al file a cui aggiungi commenti. Il file commentato rimane invariato.
+Utilizzo:
+	Aggiungi / modifica descrizione: in Windows Explorer seleziona un file e premi il tasto di scelta rapida "Alt + F1". Verrà visualizzata una finestra con un campo di immissione in cui è possibile inserire una descrizione. Scrivi qualcosa e premi il pulsante "Salva".
+	Mostra descrizione: in Windows Explorer seleziona uno o più file o non selezionare nulla, quindi premi e tieni premuto il tasto "F1": verrà visualizzata una finestra con la descrizione aggiunta in precedenza.
+Questo script è un'alternativa a [descript.ion per Windows Explorer] (descript.ion per Windows Explorer) e ora puoi spostare i file come preferisci (su disco NTFS) e non preoccuparti di spostare anche la descrizione.
 
-##### [MoveOut](MoveOut)
-Make rules to move files automatically. Use it to make a rule that moves files from the desktop to a subfolder, based on file type, part of a filename, or whatever. Have it ask to replace existing files, or rename them. It can also ignore files. Features:
-- Rightclick the tray icon to configure
-- Choose Settings to change rules and options
-- Choose Enable to Start or Stop all the rules
+##### [MoveOut] (MoveOut)
+Stabilisci regole per spostare i file automaticamente. Usalo per creare una regola che sposta i file dal desktop a una sottocartella, in base al tipo di file, parte di un nome di file o qualsiasi altra cosa. Chiedi di sostituire i file esistenti o di rinominarli. Può anche ignorare i file. Caratteristiche:
+- Fare clic con il pulsante destro del mouse sull'icona della barra delle applicazioni per configurare
+- Scegli Impostazioni per modificare regole e opzioni
+- Scegli Abilita per avviare o interrompere tutte le regole
 
-##### [Meta Shortcut](Meta%20Shortcut)
-An improved version of "[Icon Menu Launcher](Icon Menu Launcher)" script.
-Shows a list of menuitems: if you click any of them - they act as shortcuts to the files previously drag'n'dropped onto it. The script supports drag'n'drop of multiple files at once.
+##### [Meta Shortcut] (Meta% 20Shortcut)
+Una versione migliorata dello script "[Icon Menu Launcher] (Icon Menu Launcher)".
+Mostra un elenco di voci di menu: se fai clic su una di esse, agiscono come scorciatoie per i file precedentemente trascinati su di essa. Lo script supporta il drag'n'drop di più file contemporaneamente.
 
-![icon](https://i.imgur.com/n6GH8gX.png)
+! [icona] (https://i.imgur.com/n6GH8gX.png)
 
-##### [MiddleClickInstantScroll](MiddleClickInstantScroll)
-Middle click on an arbitrary position on scrollbar to instantly scroll to that position.
+##### [MiddleClickInstantScroll] (MiddleClickInstantScroll)
+Fare clic con il pulsante centrale su una posizione arbitraria sulla barra di scorrimento per scorrere istantaneamente fino a quella posizione.
 
-##### [Outdated](Outdated)
-This folder contains outdated script, mostly obsolete by the newer realizations. You don't need any of them.
+##### [Non aggiornato] (Non aggiornato)
+Questa cartella contiene script obsoleti, per lo più obsoleti dalle nuove realizzazioni. Non hai bisogno di nessuno di loro.
 
-##### [PerApplicationVolumeControl](PerApplicationVolumeControl)
-Adds hotkeys to contol the volume level of the active application (not the general volume level in the whole system).
-The whole script could be cut down to just a few lines, if you'd use <a href="http://www.nirsoft.net/utils/nircmd.html">NirCmd</a> (read the script's code to learn how).
+##### [PerApplicationVolumeControl] (PerApplicationVolumeControl)
+Aggiunge tasti di scelta rapida per controllare il livello del volume dell'applicazione attiva (non il livello del volume generale nell'intero sistema).
+L'intero script potrebbe essere ridotto a poche righe, se utilizzassi <a href="http://www.nirsoft.net/utils/nircmd.html"> NirCmd </a> (leggi il codice dello script per imparare come).
 
-##### [QuickSaveThisScript](QuickSaveThisScript)
-A script that reacts to a hotkey and quickly saves selected text to an *.ahk file and opens it in your text editor.
+##### [QuickSaveThisScript] (QuickSaveThisScript)
+Uno script che reagisce a un tasto di scelta rapida e salva rapidamente il testo selezionato in un file * .ahk e lo apre nel tuo editor di testo.
 
-##### [Remap ALT+F4 to CTRL+W](Remap%20ALT%2BF4%20to%20CTRL%2BW)
-Makes "Ctrl+W" hotkey work as "Alt+F4" for lots of different programs and system windows. I like Ctrl+W more than Alt+F4, as it's keys are closer to each other.
+##### [Rimappa ALT + F4 in CTRL + W] (Rimappa% 20ALT% 2BF4% 20 in% 20CTRL% 2BW)
+Fa funzionare il tasto di scelta rapida "Ctrl + W" come "Alt + F4" per molti programmi e finestre di sistema diversi. Mi piace Ctrl + W più di Alt + F4, poiché i tasti sono più vicini l'uno all'altro.
 
-##### [SOT2ST](SOT2ST)
-SOT2ST stand for "Scroll Over Taskbar To Switch Tasks": move cursor over TaskBar in Windows and scroll the mouse wheel up/down to switch between windows: when you will move the cursor away from TaskBar - the pre-selected window will get activated.
-This is a not yet finished script and it is generally quite buggy at the moment, not recommended for use.
+##### [SOT2ST] (SOT2ST)
+SOT2ST sta per "Scorri sulla barra delle applicazioni per cambiare attività": sposta il cursore sulla barra delle applicazioni in Windows e fai scorrere la rotellina del mouse su / giù per passare da una finestra all'altra: quando sposterai il cursore lontano dalla barra delle applicazioni, la finestra preselezionata verrà attivata.
+Questo è uno script non ancora finito ed è generalmente abbastanza difettoso al momento, non raccomandato per l'uso.
 
-##### [ScriptManager.ahk](ScriptManager.ahk)
-This folder contains different ahk scripts managers.
-One of them is [MasterScript.ahk](ScriptManager.ahk/MasterScript.ahk), which is an advanced scripts manager for AHK scripts:
-- it has a TreeView to let you navigate among your folders to the .ahk files;
-- it supports bookmarking the paths of .ahk files;
-- it supports bookmarking the paths to any folders (for easier navigation in future);
-- it tracks the connection/disconnection of removable drives;
-- it is capable of scanning the memory for the running .ahk scripts to display data about their processes and to control by sending commands to them;
-- it also has an awesome feature of "Process Assistant" that lets you bind any processes and/or scripts together in a very flexible way, so, for example, you could make running a notepad.exe also run notepadAssistantScript.ahk and depending on the rule type you chose - you can make killing the calc.exe also kill that script too.
+##### [ScriptManager.ahk] (ScriptManager.ahk)
+Questa cartella contiene diversi gestori di script ahk.
+Uno di questi è [MasterScript.ahk] (ScriptManager.ahk / MasterScript.ahk), che è un gestore di script avanzato per gli script AHK:
+- ha un TreeView che ti permette di navigare tra le tue cartelle fino ai file .ahk;
+- supporta il bookmarking dei percorsi dei file .ahk;
+- supporta il bookmarking dei percorsi a qualsiasi cartella (per una navigazione più facile in futuro);
+- traccia la connessione / disconnessione delle unità rimovibili;
+- è in grado di scansionare la memoria per gli script .ahk in esecuzione per visualizzare i dati sui loro processi e per controllarli inviando loro comandi;
+- ha anche una fantastica funzionalità di "Process Assistant" che ti consente di associare tutti i processi e / o script insieme in un modo molto flessibile, quindi, ad esempio, potresti fare in modo che l'esecuzione di un notepad.exe esegua anche notepadAssistantScript.ahk e a seconda il tipo di regola che hai scelto - puoi fare in modo che uccidendo calc.exe anche lo script.
 
-##### [SilentScreenshotter](SilentScreenshotter)
-A very ascetic yet powerful screenshotter that lets you select the area to make screenshot of, then uses a lossless compression to minimize the file's size, then automatically uploads the screenshot to Imgur and finally copies (and/or opens) the path to the screenshot. Supports drag'n'drop of images to upload them to Imgur.
-The script requries some pre-configuration before it can be used, so read the header in the script's code.
+##### [SilentScreenshotter] (SilentScreenshotter)
+Uno screenshotter molto ascetico ma potente che ti consente di selezionare l'area di cui fare lo screenshot, quindi utilizza una compressione senza perdite per ridurre al minimo le dimensioni del file, quindi carica automaticamente lo screenshot su Imgur e infine copia (e / o apre) il percorso dello screenshot. Supporta il drag'n'drop delle immagini per caricarle su Imgur.
+Lo script richiede una pre-configurazione prima di poter essere utilizzato, quindi leggi l'intestazione nel codice dello script.
 
-##### [StandDescription](StandDescription)
-A script that demonstrates the idea of dynamic GUI and saving/restoring data from an array or an object) into/from JSON format.
+##### [StandDescription] (StandDescription)
+Uno script che dimostra l'idea di una GUI dinamica e di salvare / ripristinare i dati da un array o un oggetto) nel / dal formato JSON.
 
-##### [StringyLauncher](StringyLauncher)
-This is a launcher (run programs by typing keywords). It follows the rules specified in "rules.ini" file.
-The syntax for this file is the following:
-0. You'd better set codepage to 65001 (UTF-8).
-1. Each rule should be on it's own line.
-2. Each rule consists of keyword(s) + path. All of them should be separated with pipes.
-3. To bring support of launching files directly from archives:
-	a. You should bind a keyword "archiver" to your archiver: currently, the script supports only 7-Zip (specify path to 7z.exe) and WinRar (specify path to WinRAR.exe, UnRAR.exe or RAR.exe).
-	b. The syntax for such rules is the following: say, you need to launch "\archived_folder\with\test.exe" from "arch.rar", then the rule should be so: "keyword`|C:\path\to\arch.rar!archived_folder\with\test.exe".
-Notes:
-1. Currently the launching is limited to one place: all triggers work only if they were typed to "Win+R" or "Start>Run" (or "Пуск>Выполнить" in Windows with "ru" locale). To remove this limit you need to delete line "#IfWinActive, ahk_exe explorer.exe ahk_class #32770" but then you should consider adding some closing char to your keywords, otherwise the launcher will work out right after you finished typing a keyword.
-2. You may specify a temporary folder to which archives will get unpacked to. And you also may specify not to remove the unpacked files after you closed the launched program that was in an archive.
+##### [StringyLauncher] (StringyLauncher)
+Questo è un lanciatore (esegui programmi digitando parole chiave). Segue le regole specificate nel file "rules.ini".
+La sintassi per questo file è la seguente:
+0. È meglio impostare la tabella codici su 65001 (UTF-8).
+1. Ogni regola dovrebbe essere sulla propria riga.
+2. Ogni regola è composta da parola chiave + percorso. Tutti dovrebbero essere separati con tubi.
+3. Per supportare l'avvio dei file direttamente dagli archivi:
+	un. È necessario associare una parola chiave "archiver" all'archiver: attualmente, lo script supporta solo 7-Zip (specificare il percorso per 7z.exe) e WinRar (specificare il percorso per WinRAR.exe, UnRAR.exe o RAR.exe).
+	b. La sintassi per tali regole è la seguente: ad esempio, è necessario avviare "\ archived_folder \ with \ test.exe" da "arch.rar", quindi la regola dovrebbe essere così: "parola chiave` | C: \ path \ to \ arch.rar! archived_folder \ with \ test.exe ".
+Appunti:
+1. Attualmente il lancio è limitato a un posto: tutti i trigger funzionano solo se sono stati digitati su "Win + R" o "Start> Esegui" (o "Пуск> Выполнить" in Windows con locale "ru"). Per rimuovere questo limite è necessario eliminare la riga "#IfWinActive, ahk_exe explorer.exe ahk_class # 32770" ma si dovrebbe considerare l'aggiunta di alcuni caratteri di chiusura alle parole chiave, altrimenti il ​​programma di avvio funzionerà subito dopo aver digitato una parola chiave.
+2. È possibile specificare una cartella temporanea in cui verranno decompressi gli archivi. E puoi anche specificare di non rimuovere i file decompressi dopo aver chiuso il programma avviato che era in un archivio.
 
-##### [TheEnd](TheEnd)
-Unselect the file type when renaming files in XP (just like it is by default in Windows 7).
+##### [TheEnd] (TheEnd)
+Deseleziona il tipo di file quando rinomini i file in XP (proprio come avviene per impostazione predefinita in Windows 7).
 
-##### [TransliterateText](TransliterateText)
-Quite an unstable script yet. It adds ru<>en transliteration of the last word/line/whole text like qwerty<>йцукен.
+##### [TransliterateText] (TransliterateText)
+Uno script abbastanza instabile ancora. Aggiunge ru <> alla traslitterazione dell'ultima parola / riga / testo intero come qwerty <> йцукен.
 
-##### [VDesktops](VDesktops)
-Adds pseudo-virtual desktops: first, hit "Win+Shift+0/1/2/3" to bind windows to desktops and then hit "Win+0/1/2/3" to switch to those desktops.
+##### [VDesktops] (VDesktops)
+Aggiunge desktop pseudo-virtuali: in primo luogo, premi "Win + Maiusc + 0/1/2/3" per associare Windows ai desktop e poi premi "Win + 0/1/2/3" per passare a quei desktop.
 
-##### [WinTraymin](WinTraymin)
-Right click the "minimize" button to minimize a window into a trayicon. Left/Middle/Right click on the trayicon will restore the window. And if the window is activated via other means the corresponding trayicon will be removed too.
+##### [WinTraymin] (WinTraymin)
+Fare clic con il pulsante destro del mouse sul pulsante "minimizza" per ridurre a icona una finestra in una trayicon. Un clic sinistro / centrale / destro sull'icona del vassoio ripristinerà la finestra. E se la finestra viene attivata tramite altri mezzi, verrà rimossa anche l'icona del vassoio corrispondente.
 
-##### [descript.ion for Windows Explorer](descript.ion%20for%20Windows%20Explorer)
-This script let's you get files' comments.
-If any files are selected - the comments will be shown only for them, otherwise - for all files in the folder.
-Comments get taken from the descript.ion file that should be present in the folder.
+##### [descript.ion per Windows Explorer] (descript.ion% 20per% 20Windows% 20Explorer)
+Questo script ti consente di ottenere i commenti dei file.
+Se sono selezionati file, i commenti verranno visualizzati solo per loro, altrimenti per tutti i file nella cartella.
+I commenti vengono presi dal file descript.ion che dovrebbe essere presente nella cartella.
 
-Usage:
-1. Get TotalCommander (or alike), select a file there, hit Ctrl+Z, add some comments to the file. This will create a descript.ion (usually hidden) file in that folder.
-2. Open the commented file's folder in Windows Explorer.
-3. Run this script and either hold F1 to get a traytip with comments for all the files in that folder or select the necessary files first and then get comments only to the selected files.
+Utilizzo:
+1. Ottieni TotalCommander (o simile), seleziona un file lì, premi Ctrl + Z, aggiungi alcuni commenti al file. Questo creerà un file descript.ion (solitamente nascosto) in quella cartella.
+2. Aprire la cartella del file commentato in Windows Explorer.
+3. Esegui questo script e tieni premuto F1 per ottenere un suggerimento con commenti per tutti i file in quella cartella o seleziona prima i file necessari e poi ottieni commenti solo per i file selezionati.
 
-##### [hyde](hyde)
-Nearly blackhat: hyde.dll hides a process from the task manager on Windows 2000 - Windows 7 x86 & x64 bit OSes. Your process can inject it into other processes however you like. The example uses SetWindowsHookEx with a CBT hook (the dll exports a CBTProc) to inject it into all running processes.
+##### [hyde] (hyde)
+Quasi blackhat: hyde.dll nasconde un processo dal task manager su Windows 2000 - sistemi operativi Windows 7 x86 e x64 bit. Il tuo processo può iniettarlo in altri processi come preferisci. L'esempio utilizza SetWindowsHookEx con un hook CBT (la dll esporta un CBTProc) per iniettarlo in tutti i processi in esecuzione.
 
-##### [pgTable](pgTable)
-This script let's you convert a copied table into a table with pseudo-graphical borders.
-Copy a table, hit F12, paste the table with pseudo-graphical borders.
-The script also has settings, that let you specify padding and text alignment in cells, border style, whether to use separators between rows, whether to add a top border, whether to add bottom border.
-```
-this	is	a	table
-with	3 rows	and	4 columns
-and it	is	absolutely	awesome
-```
-for example into
-```
-┌────────┬────────┬────────────┬───────────┐
-│  this  │   is   │      a     │   table   │
-├────────┼────────┼────────────┼───────────┤
-│  with  │ 3 rows │     and    │ 4 columns │
-├────────┼────────┼────────────┼───────────┤
-│ and it │   is   │ absolutely │  awesome  │
-└────────┴────────┴────────────┴───────────┘
-```
-or for another example into
-```
+##### [pgTable] (pgTable)
+Questo script ti consente di convertire una tabella copiata in una tabella con bordi pseudo-grafici.
+Copia una tabella, premi F12, incolla la tabella con bordi pseudo-grafici.
+Lo script ha anche impostazioni che ti consentono di specificare la spaziatura interna e l'allineamento del testo nelle celle, lo stile del bordo, se utilizzare separatori tra le righe, se aggiungere un bordo superiore, se aggiungere il bordo inferiore.
+`` `
+questo è un tavolo
+con 3 righe e 4 colonne
+ed è assolutamente fantastico
+`` `
+per esempio in
+`` `
+┌────────┬─────────┬────────────────────────┐
+│ questo │ è       │ un │ tavolo │
+├────────┼─────────┼────────────────────────┤
+│ con │ 3 righe │ e │ 4 ​​colonne │
+├────────┼─────────┼────────────────────────┤
+│ ed è │ assolutamente │ fantastico │
+└────────┴────────┴─────────────────────────┘
+`` `
+o per un altro esempio in
+`` `
 ╔══════╦══════╦══════════╦═════════╗
-║  this║    is║         a║    table║
-║  with║3 rows║       and║4 columns║
-║and it║    is║absolutely║  awesome║
+║ questo║ è║ un║ tavolo║
+║ con║3 righe║ e║4 colonne║
+"Ed è" assolutamente "fantastico"
 ╚══════╩══════╩══════════╩═════════╝
-```
+`` `
