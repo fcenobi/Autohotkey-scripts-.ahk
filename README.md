@@ -156,25 +156,26 @@ Questo script ti consente di convertire una tabella copiata in una tabella con b
 Copia una tabella, premi F12, incolla la tabella con bordi pseudo-grafici.
 Lo script ha anche impostazioni che ti consentono di specificare la spaziatura interna e l'allineamento del testo nelle celle, lo stile del bordo, se utilizzare separatori tra le righe, se aggiungere un bordo superiore, se aggiungere il bordo inferiore.
 `` `
-questo è un tavolo
-con 3 righe e 4 colonne
-ed è assolutamente fantastico
-`` `
-per esempio in
-`` `
-┌────────┬─────────┬────────────────────────┐
-│ questo │ è       │ un │ tavolo │
-├────────┼─────────┼────────────────────────┤
-│ con │ 3 righe │ e │ 4 ​​colonne │
-├────────┼─────────┼────────────────────────┤
-│ ed è │ assolutamente │ fantastico │
-└────────┴────────┴─────────────────────────┘
-`` `
-o per un altro esempio in
-`` `
+this	is	a	table
+with	3 rows	and	4 columns
+and it	is	absolutely	awesome
+```
+for example into
+```
+┌────────┬────────┬────────────┬───────────┐
+│  this  │   is   │      a     │   table   │
+├────────┼────────┼────────────┼───────────┤
+│  with  │ 3 rows │     and    │ 4 columns │
+├────────┼────────┼────────────┼───────────┤
+│ and it │   is   │ absolutely │  awesome  │
+└────────┴────────┴────────────┴───────────┘
+```
+or for another example into
+```
 ╔══════╦══════╦══════════╦═════════╗
-║ questo║ è║ un║ tavolo║
-║ con║3 righe║ e║4 colonne║
-"Ed è" assolutamente "fantastico"
+║  this║    is║         a║    table║
+║  with║3 rows║       and║4 columns║
+║and it║    is║absolutely║  awesome║
 ╚══════╩══════╩══════════╩═════════╝
+```
 `` `
